@@ -1,0 +1,82 @@
+$primary-color: #4a7c9d; // Example color
+$secondary-color: #d4e4f5; // Example light color
+$danger-color: #ff6f61; // Example red
+$success-color: #5cb85c; // Example green
+$info-color: #5bc0de; // Example blue
+$warning-color: #f0ad4e; // Example yellow
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+
+    .sidebar {
+        background: $primary-color;
+        color: white;
+        width: 250px;
+        padding: 20px;
+
+        h2 {
+            margin-bottom: 30px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+
+            li {
+                margin: 20px 0;
+
+                a {
+                    color: white;
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+    .main-content {
+        flex-grow: 1;
+        background: $secondary-color;
+        padding: 20px;
+
+        .header {
+            margin-bottom: 20px;
+
+            h1 {
+                font-size: 24px;
+            }
+        }
+
+        .dashboard-cards {
+            display: flex;
+            justify-content: space-between;
+
+            .card {
+                background: white;
+                width: 23%;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                margin: 10px 0;
+
+                .card-title {
+                    font-weight: 700;
+                }
+            }
+        }
+
+        .table {
+            margin-top: 20px;
+        }
+
+        .quick-actions {
+            margin-top: 20px;
+
+            button {
+                margin-right: 10px;
+            }
+        }
+    }
+}

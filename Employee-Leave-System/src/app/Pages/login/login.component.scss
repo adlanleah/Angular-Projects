@@ -1,0 +1,103 @@
+ body {
+      background-color: #202216;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 1rem;
+    }
+
+    .login-card {
+      background: white;
+      border-radius: 1.5rem;
+      width: 100%;
+      max-width: 380px;
+      box-shadow: 0 5px 20px rgb(31 31 31 / 0.2);
+      overflow: hidden;
+    }
+
+    .login-header {
+      background: linear-gradient(90deg, #6a7ddb 0%, #8a65bc 100%);
+      padding: 2rem 1.5rem;
+      color: white;
+      text-align: center;
+      font-weight: 600;
+      font-size: 1.5rem;
+      letter-spacing: 0.04rem;
+      border-top-left-radius: 1.5rem;
+      border-top-right-radius: 1.5rem;
+    }
+
+    .login-subtitle {
+      font-weight: 400;
+      font-size: 0.875rem;
+      color: white;
+      margin-top: 0.25rem;
+      opacity: 0.9;
+    }
+
+    .login-body {
+      padding: 2rem 1.75rem;
+    }
+
+    label {
+      font-weight: 600;
+      color: #202216;
+    }
+
+    .form-control {
+      border-radius: 0.5rem;
+      padding: 0.625rem 1rem;
+      border: 1px solid #ddd;
+      transition: border-color 0.3s ease;
+    }
+    .form-control:focus {
+      border-color: #f2de9b;
+      box-shadow: 0 0 6px #f2de9b80;
+    }
+
+    .form-check-label {
+      color: #202216;
+      font-weight: 500;
+      user-select: none;
+    }
+
+    .btn-login {
+      background: linear-gradient(90deg, #6a7ddb 0%, #8a65bc 100%);
+      color: white;
+      border-radius: 2rem;
+      width: 100%;
+      padding: 0.625rem 0;
+      font-weight: 600;
+      font-size: 1.125rem;
+      border: none;
+      margin-top: 1rem;
+      transition: background 0.3s ease;
+    }
+
+    .btn-login:hover,
+    .btn-login:focus {
+      background: #5a639e;
+      box-shadow: 0 0 8px #8a65bc80;
+      color: white;
+    }
+
+    .forgot-password {
+      display: block;
+      color: #202216;
+      font-size: 0.875rem;
+      font-weight: 500;
+      margin-top: 1rem;
+      text-align: center;
+      text-decoration: underline;
+      cursor: pointer;
+      opacity: 0.75;
+      transition: opacity 0.3s ease;
+    }
+
+    .forgot-password:hover {
+      opacity: 1;
+      text-decoration: underline;
+    }
