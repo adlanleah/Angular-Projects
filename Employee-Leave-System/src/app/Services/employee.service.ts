@@ -19,4 +19,7 @@ export class EmployeeService {
   DeletedEmployee(obj:any){
     return this.http.delete("https://freeapi.miniprojectideas.com/api/EmployeeLeave/DeleteEmployee",obj)
   }
+  GetEmployee(obj:any){
+    return this.http.get("'https://freeapi.miniprojectideas.com/api/EmployeeLeave/GetEmployeeById",obj)
+  }
 }
